@@ -74,10 +74,16 @@
                 style="?android:textAppearanceSmall"
                 android:layout_width="120dp"
                 android:layout_height="40dp"
-                android:layout_marginTop="16dp"
                 android:layout_marginLeft="230dp"
+                android:layout_marginTop="16dp"
                 android:text="SIGN IN"
                 android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:text="Onthoud mij" />
 
         </LinearLayout>
     </ScrollView>
